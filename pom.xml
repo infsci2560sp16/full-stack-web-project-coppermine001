@@ -25,7 +25,12 @@
       <artifactId>heroku-jdbc</artifactId>
       <version>0.1.1</version>
     </dependency>
-  </dependencies>
+<dependency>
+      <groupId>org.jscience</groupId>
+      <artifactId>jscience</artifactId>
+      <version>4.3.1</version>
+    </dependency>  
+</dependencies>
   <build>
     <plugins>
       <plugin>
@@ -53,19 +58,6 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>pl.allegro</groupId>
-        <artifactId>grunt-maven-plugin</artifactId>
-        <version>1.4.1</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>npm</goal>
-              <goal>grunt</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
+      </plugins>
   </build>
 </project>
