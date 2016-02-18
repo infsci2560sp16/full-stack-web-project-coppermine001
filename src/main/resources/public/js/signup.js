@@ -38,7 +38,7 @@ else if(!IsValid())
 alert("Username can only contain numbers and letters ");
 return false;
 }
-else if(reg.UserPassword.value=="")
+else if(reg.UserPassword.value==="")
 {
 alert("please enter password");
 return false;
