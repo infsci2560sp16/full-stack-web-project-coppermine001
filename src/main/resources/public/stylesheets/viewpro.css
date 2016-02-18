@@ -1,0 +1,45 @@
+@import url('normalize.css');
+/* General Demo Style */
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background: #006699;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+a{
+	color: #555;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	position: relative;
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.container > header{
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > table{
+  margin-left: 0;
+}
+.container > header h1{
+	font-size: 40px;
+	margin: 0;
+	position: relative;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+/* Header Style */

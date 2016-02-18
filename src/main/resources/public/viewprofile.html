@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>View your profile</title>
+        <link rel="stylesheet" type="text/css" href="StyleSheets/viewpro1.css" />
+        <link rel="stylesheet" type="text/css" href="StyleSheets/viewpro.css" />
+		<script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+			<style>
+				.content{
+					height: auto;
+					margin: 0;
+				}
+				.content div {
+					position: relative;
+				}
+			</style>
+		<![endif]-->
+    </head>
+    <body>
+        <div class="container">
+			<header>
+				<h1>View your profile </h1>
+			</header>
+			<section class="tabs">
+	            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+		        <label for="tab-1" class="tab-label-1">Edit your profile</label>
+
+	            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+		        <label for="tab-2" class="tab-label-2">your friends</label>
+
+	            <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+		        <label for="tab-3" class="tab-label-3">History</label>
+
+
+			    <div class="clear-shadow"></div>
+
+		        <div class="content">
+			        <div class="content-1">
+            <form name="reg" action="user_add.jsp" method="post" target="_self" onSubmit="return docheck()">
+            <table width="90%" border="0">
+            <tr>
+            <td width="50%" align="center" height="25">Enter uername：</td>
+            <td width="50%" align="left" height="25">
+             <input type="text" name="UserName" placeholder="Username can only contain numbers and letters">
+
+            </td>
+            </tr>
+            <tr>
+            <td width="50%" align="center" height="25">Enter password：</td>
+            <td width="50%" align="left" height="25"> <input type="password" name="UserPassword"></td>
+            </tr>
+            <tr>
+            <td width="50%" align="center" height="25">Reenter password：</td>
+            <td width="50%" align="left" height="25"> <input type="password" name="CUserPassword"></td>
+            </tr>
+            <tr>
+            <td width="50%" align="center" height="25">Nickname：</td>
+            <td width="50%" align="left" height="25"> <input type="text" name="NickName"></td>
+            </tr>
+
+            <tr>
+            <td width="50%" align="center" height="25">Email address：</td>
+            <td width="50%" align="left" height="25"> <input type="text" name="Email"></td>
+            </tr>
+            </table>
+            </form>
+              <input type="submit" name="sub" value="submit">
+
+				    </div>
+			        <div class="content-2">
+						</div>
+			        <div class="content-3">
+						</div>
+
+		        </div>
+			</section>
+        </div>
+    </body>
+</html>
