@@ -20,6 +20,7 @@ public class Main {
         port(Integer.valueOf(System.getenv("PORT")));
         staticFileLocation("/public");
         Object o1 = new login();
+        Object o2 = new signup();
         
         get("/hello", (req, res) -> "Hello World");
         

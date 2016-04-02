@@ -46,7 +46,7 @@
 </p>
 </form>
 </div>
-<a href="login.html" target="_blank">back to login</a>
+<a href="/login" target="_blank">back to login</a>
 
 
 </body>
