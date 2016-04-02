@@ -10,7 +10,7 @@ import static spark.Spark.*;
 import spark.template.freemarker.FreeMarkerEngine;
 import spark.ModelAndView;
 import static spark.Spark.get;
-
+import java.net.URISyntaxException;
 import com.heroku.sdk.jdbc.DatabaseUrl;
 
 public class Main {
@@ -19,6 +19,7 @@ public class Main {
         
         port(Integer.valueOf(System.getenv("PORT")));
         staticFileLocation("/public");
+        Object o1 = new login();
         
         get("/hello", (req, res) -> "Hello World");
         
