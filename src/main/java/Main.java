@@ -21,6 +21,7 @@ public class Main {
         staticFileLocation("/public");
         Object o1 = new login();
         Object o2 = new signup();
+        Object o3 = new signuppage();
         
         get("/hello", (req, res) -> "Hello World");
         

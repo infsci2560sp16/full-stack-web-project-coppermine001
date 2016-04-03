@@ -9,16 +9,16 @@ import java.text.SimpleDateFormat;
 public class signup {
 	
 	public signup(){
-		get("/signup", (req, res) ->{
+		get("/signup_action", (req, res) ->{
 			Map<String, Object> attributes = new HashMap<>();
-			String login_username = req.queryParams("login_username");
-			String login_password = req.queryParams("login_password");
+			String UserName = req.queryParams("UserName");
+			String UserPassword = req.queryParams("UserPassword");
 			
 			attributes.put("message", "test page");
-			attributes.put("login_username", login_username);
-			attributes.put("login_password", login_password);
+			attributes.put("UserName", UserName);
+			attributes.put("UserPassword", UserPassword);
 			
-			return new ModelAndView(attributes, "signup.ftl");
+			return new ModelAndView(attributes, "signup_action.ftl");
 		}, new FreeMarkerEngine());
 	}
 }

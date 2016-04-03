@@ -19,7 +19,7 @@
         </p>
         <input type="submit" value="Sign in" />
       </form>
-      <a href="signup.html" target="_blank">
+      <a href="/signup" target="_blank">
         sign up
       </a>
 

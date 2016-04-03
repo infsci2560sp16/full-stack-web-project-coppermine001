@@ -10,7 +10,7 @@
 <body>
 <h1>User Sign up</h1>
 <div>
-<form name="reg" action="user_add.jsp" method="post" target="_self" onSubmit="return docheck()">
+<form name="reg" action="/signup_action" >
 <table>
 <tr>
 <td>Enter uername：</td>
