@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="stylesheets/chat.css">
         <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="js/chat.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/Hichat.js"></script>
     </head>
     <body>
     <div class="onlineuser">
@@ -47,6 +49,10 @@
             <p id="info">
               <img src="js/pics/ajax-loader.gif" alt="connecting to server...">
             </p>
+            <div id="nickWrapper">
+                <input type="text" placeHolder="nickname" id="nicknameInput" />
+                <input type="button" value="OK" id="loginBtn" />
+            </div>
         </div>
 
     </body>

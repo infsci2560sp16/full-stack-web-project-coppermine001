@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
+<meta http-equiv="refresh" content="5; url = chat.html"
     <title>loading</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/viewpro1.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/viewpro.css" />
